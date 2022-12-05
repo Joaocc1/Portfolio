@@ -1,0 +1,84 @@
+.hero {
+    background-image: url(../assets/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    background-position: bottom right;
+    height: 100vh;
+    background-color: #b1b1b1;
+}
+
+.hero__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero__content {
+    color: #ffffff;
+    background-color: #333333;
+    text-align: left;
+    padding: 1rem;
+    opacity: 0.9;
+    border-radius: 5px;
+    width: 45rem;
+}
+
+.hero__content p {
+    margin: 0.75em;
+    background-color: #333333;
+    color: #9c9c9c;
+    font-size: 1.2em;
+    max-width: 100%;
+    word-wrap:break-word;
+}
+
+.hero__content h1 {
+    font-size: 4em;
+}
+
+.hero__content span {
+    color: #ff3164;
+}
+
+.hero__paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.hero__paragraph p {
+    margin-bottom: 0.75em;
+}
+
+.hero__paragraph div span {
+    font-size: 2em;
+    font-weight: bold;
+    color: #838383;
+}
+
+@media only screen and (max-width: 700px) {
+    .hero {
+        background-position: center center;
+    }
+    
+    .hero__content h1 {
+        font-size: 3rem;
+    }
+
+    .hero__content div span {
+        font-size: 1.75em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero__content h1 {
+        font-size: 1.75em;
+    }
+
+    .hero__content p {
+        font-size: 0.75em;
+    }
+
+    .hero__content div span {
+        font-size: 1em;
+    }
+}
